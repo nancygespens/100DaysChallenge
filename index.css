@@ -1,0 +1,113 @@
+body {
+    margin: auto;
+    padding: 0;
+    background: linear-gradient(#bde0fe,#a2d2ff);
+    text-align: center;
+    font-family: Roboto Flex;
+}
+
+#card {
+    margin: 50px auto;
+    height: 755px;
+    width: 510px;
+    border-radius: 64px;
+    background: white;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+  
+
+/* TOP */
+
+#photoBg {
+    width: 510px;
+    height: auto;
+}
+
+#svg {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#photo {
+    padding: 0;
+    margin: -260px auto 0 auto;
+}
+
+.photo{
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
+/* MIDDLE */
+
+#info {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+#name {
+    margin: 141px 0 0;
+   color: #000000; 
+   font-size: 38px;
+   font-weight: 400;
+}
+
+#link {
+    margin-top: 4px;
+    color: #838383; 
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#icons {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 35px;
+}
+
+#icons svg:hover {
+    fill: #CDB4DB;
+    transition: fill 0.5s;
+    transform: scale(1.2);
+}
+
+#bio {
+    margin: auto auto 65px;
+    width: 415px;
+    color: #000000; 
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* BOTTOM */
+
+#buttons {
+    margin-top: auto auto 44px auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 32px;
+}
+
+button{
+    color: #838383;
+    padding: 0;
+    margin-bottom: 44px;
+    font-size: 15px;
+    font-weight: 400;
+    height: 57px;
+    width: 191px;
+    border: 2px solid #838383;
+    background: white;
+    border-radius: 100px;
+}
+
+button:hover {
+    background:#CDB4DB;
+    border: none;
+    transition: 0.5s;
+    color: white;
+}
